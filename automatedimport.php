@@ -14,7 +14,7 @@
  * <valid PHP timezone> - checkout http://www.php.net/manual/en/timezones.php
  * 
  * what todo before first run:
- * - set the correct path for OCROOT on line 25 (the path must end with a '/'!)
+ * - set the correct path for OCROOT on line 25
  * 
  * How to run this script from command line:
  * $ sudo -u <user of webserver> php <name of this script> <absolute path to calendar file> <userid of calendar owner> <id of calendar> <valid PHP timezone>
@@ -45,7 +45,7 @@ $tz = (string) $argv[4];
 
 //it's not necessary to load all apps
 $RUNTIME_NOAPPS = true;
-require_once(OCROOT . 'lib/base.php');
+require_once(OCROOT . '/lib/base.php');
 
 //set userid
 OC_User::setUserId($userid);

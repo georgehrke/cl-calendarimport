@@ -7,7 +7,7 @@ PHP command line script for importing calendar files into your ownCloud calendar
 This project is licensed under the terms of the MIT License.
 
 ### How to setup:
-- set the correct path for OCROOT on line 25 (the path must end with a '/'!)
+- set the correct path for OCROOT on line 25
 
 ### Attention
 - all existing events in the calendar will be deleted before importing the file
