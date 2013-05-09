@@ -14,7 +14,7 @@
  * <valid PHP timezone> - checkout http://www.php.net/manual/en/timezones.php
  * 
  * what todo before first run:
- * - set the corrent path for OCROOT on line 25 (the path must end with a '/'!)
+ * - set the correct path for OCROOT on line 25 (the path must end with a '/'!)
  * 
  * How to run this script from command line:
  * $ sudo -u <user of webserver> php <name of this script> <absolute path to calendar file> <userid of calendar owner> <id of calendar> <valid PHP timezone>
