@@ -25,6 +25,10 @@
 define('OCROOT', '');
 $nl = "\n";
 
+//disable all error reporting.
+//elsewise there will be a lot of PHP Notices because this script is running on command line
+error_reporting(0);
+
 if(OCROOT === ''){
 	echo 'please set ownClouds root path in ' . $argv[0] . $nl;
 	exit;
