@@ -30,7 +30,7 @@ $nl = "\n";
 error_reporting(0);
 
 if(OCROOT === ''){
-	echo 'please set ownClouds root path in ' . $argv[0] . $nl;
+	echo 'please set ownCloud\'s root path in ' . $argv[0] . $nl;
 	exit;
 }
 
