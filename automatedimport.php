@@ -10,7 +10,7 @@
  * <user of webserver> - checkout your distros doc
  * <name of this script> - should be automatedimport.php if you didn't rename it
  * <userid of calendar owner> - userid of the calendars owner, probably your userid
- * <id of calendar> - to get this id, take a look at the table %prefix%calendar_calendars in your database
+ * <id of calendar> - to get this id, take a look at the table %prefix%clndr_calendars in your database
  * <valid PHP timezone> - checkout http://www.php.net/manual/en/timezones.php
  * 
  * what todo before first run:
