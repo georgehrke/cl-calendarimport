@@ -62,7 +62,7 @@ OC_Util::checkAppEnabled('calendar');
 OC_App::loadApp('calendar');
 
 //delete all old calendar entries
-$stmt = OCP\DB::prepare( 'DELETE FROM `*PREFIX*calendar_objects` WHERE `calendarid` = ?' );
+$stmt = OCP\DB::prepare( 'DELETE FROM `*PREFIX*clndr_objects` WHERE `calendarid` = ?' );
 $stmt->execute(array($calendarid));
 
 //initialize a new import object
