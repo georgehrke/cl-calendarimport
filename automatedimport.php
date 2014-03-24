@@ -73,3 +73,6 @@ $import->setTimeZone($tz);
 
 //import calendar
 $import->import();
+
+$stmt = OCP\DB::prepare( 'UPDATE `*PREFIX*clndr_calendars` SET `ctag` = `ctag` + 1 WHERE `id` = ?' );
+$stmt->execute(array($calendarid));
