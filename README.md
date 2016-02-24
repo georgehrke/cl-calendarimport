@@ -1,7 +1,8 @@
 cl-calendarimport
 =================
 
-__NOT COMPATIBLE WITH OWNCLOUD 9 - WON'T FIX__
+### __NOT COMPATIBLE WITH OWNCLOUD 9 - WON'T FIX__
+
 
 PHP command line script for importing calendar files into your ownCloud calendar
 
